@@ -1,9 +1,38 @@
 <!DOCTYPE html>
+<style>
+body{
+    background-color:wheat;
+}
+h1{
+    font-size: 300%;
+    text-align:center;
+}
+button {
+  display: block;
+  max-width: 300px;
+  min-width: 300px;
+  margin: auto;
+  font-size: 300%;
+  text-align:center;
+  border-radius: 15px 15px 15px 15px;
+  background-color: white;
+  color: white;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+</style>
+
+
 <title>Rock Page</title>
 <h1>Choose your weapon!</h1>
-
-<button><a href="/pickRock">Rock</a></button>
-<button><a href="/pickPaper">Paper</a></button>
-<button><a href="/pickScissors">Scissors</a></button>
+<div style="width:100%; height:100%; border: 1px solid">
+<button><a href="/playGame/rock"><img src="static/img/rock.png" alt="Rock" style="width:150px;height:150px;"></a></button>
+</br>
+<button><a href="/playGame/paper"><img src="static/img/paper.png" alt="Paper" style="width:150px;height:150px;"></a></button>
+</br>
+<button><a href="/playGame/scissors"><img src="static/img/scissors.png" alt="Scissors" style="width:150px;height:150px;"></a></button>
+</div>
 
 
